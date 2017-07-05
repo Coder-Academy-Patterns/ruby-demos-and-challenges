@@ -3,7 +3,9 @@ Ruby Demos (for teachers) and Challenges (for students)
 
 <details>
 <summary>
+
 ## Temperature: Celsius to Fahrenheit
+
 </summary>
 
 ### Skills
@@ -35,36 +37,48 @@ Ask the user for the days in a week from Monday to Sunday and the temperature th
 
 <details>
 <summary>
+
 ## Shopping List
+
 </summary>
 </details>
 
 <details>
 <summary>
+
 ## Restaurant
+
 </summary>
 </details>
 
 <details>
 <summary>
+
 ## ATM
+
 </summary>
 </details>
 
 <details>
 <summary>
+
 ## Student Factory
+
 </summary>
 </details>
 
 <details>
 <summary>
+
 ## Patterns
+
 </summary>
 </details>
 
 <details>
 <summary>
+
 ## Cipher
+
 </summary>
 </details>
