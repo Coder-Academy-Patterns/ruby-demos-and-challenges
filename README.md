@@ -78,9 +78,6 @@ Skills, demo, challenge
 </summary>
 </details>
 
-<details>
-<summary>
-
 
 ## Student Factory
 <details>
