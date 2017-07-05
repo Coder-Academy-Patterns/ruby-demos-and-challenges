@@ -1,11 +1,11 @@
 # ruby-demos-and-challenges
 Ruby Demos (for teachers) and Challenges (for students)
 
-<details>
-<summary>
 
 ## Temperature: Celsius to Fahrenheit
-
+<details>
+<summary>
+Skills, demo, challenge
 </summary>
 
 ### Skills
@@ -35,50 +35,52 @@ Ask the user for the days in a week from Monday to Sunday and the temperature th
 
 </details>
 
+## Shopping List
 <details>
 <summary>
-
-## Shopping List
-
+Skills, demo, challenge
 </summary>
 </details>
 
-<details>
-<summary>
 
 ## Restaurant
-
+<details>
+<summary>
+Skills, demo, challenge
 </summary>
 </details>
 
-<details>
-<summary>
 
 ## ATM
-
+<details>
+<summary>
+Skills, demo, challenge
 </summary>
 </details>
 
 <details>
 <summary>
+
 
 ## Student Factory
-
+<details>
+<summary>
+Skills, demo, challenge
 </summary>
 </details>
 
-<details>
-<summary>
 
 ## Patterns
-
+<details>
+<summary>
+Skills, demo, challenge
 </summary>
 </details>
 
-<details>
-<summary>
 
 ## Cipher
-
+<details>
+<summary>
+Skills, demo, challenge
 </summary>
 </details>
