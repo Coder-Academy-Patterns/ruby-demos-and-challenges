@@ -28,7 +28,7 @@ class Order
   end
 
   def bill
-    table = Terminal::Table.new headers: ['Name', 'Price'] do |t|
+    table = Terminal::Table.new headings: ['Name', 'Price'] do |t|
       @items.each do |item|
         t << [item.name, "$#{item.price}"]
       end

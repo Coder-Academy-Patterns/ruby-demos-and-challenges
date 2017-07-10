@@ -27,3 +27,16 @@
 
 ### Challenge
 
+1. Add an options menu
+    1. Add item
+    2. Remove item
+    3. Order items
+    4. Print items
+    5. Ask for bill
+2. Add feature to handle an empty order
+3. Choose from entree, main & desert
+4. View item description
+5. Order with food options (e.g. no mushrooms please)
+7. Queue seperate orders
+8. Add cooking times to each order
+6. Display waiting time for a single order
