@@ -17,4 +17,4 @@ WEEKDAYS.each do |weekday|
 end
 
 puts "Here are the week's temperatures:"
-puts Terminal::Table.new :headers => ['Weekday', 'Celisus', 'Fahrenheit'], :rows => rows
+puts Terminal::Table.new headings: ['Weekday', 'Celisus', 'Fahrenheit'], rows: rows
