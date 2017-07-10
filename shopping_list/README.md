@@ -17,3 +17,21 @@
 5. Loop will continue around
 6. Loop through items of an array
 7. Display each item
+
+### Challenges
+1. Create an options menu
+  1. Print items option
+  3. Add items option
+  2. Remove items option
+  4. Update items option
+  6. Quit program option
+2. Add quantity to each item
+4. Print feedback for each action
+5. Ability to cancel actions
+7. Prioritise items
+  1. Raise priority
+  2. Lower priority
+8. Add prices to items
+9. Print price total
+10. Have multiple shopping lists (bonus)
+11. Save shopping lists (bonus)
