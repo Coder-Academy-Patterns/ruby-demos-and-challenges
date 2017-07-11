@@ -6,5 +6,5 @@
 ### [Restaurant](restaurant)
 ### [ATM](atm)
 ### [Student Factory](student_factory)
-### Patterns
+### [Patterns](patterns)
 ### Cipher

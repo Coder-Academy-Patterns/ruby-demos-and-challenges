@@ -1,13 +1,13 @@
 require 'date' # Built into Ruby
 require 'terminal-table' # Installed gem
 
-WEEKDAYS = Date::DAYNAMES
-
 def convert_celsius_to_fahrenheit(celsius)
   (celsius * 9 / 5) + 32
 end
 
 rows = []
+WEEKDAYS = Date::DAYNAMES
+
 WEEKDAYS.each do |weekday|
   puts "What temperature was it on #{weekday} (in Celsius)?"
   input = gets.chomp
