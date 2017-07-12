@@ -3,8 +3,8 @@
 
 ### [Shopping List](shopping_list)
 ### [Temperature](temperature)
+### [Cipher](cipher)
 ### [Restaurant](restaurant)
 ### [ATM](atm)
 ### [Student Factory](student_factory)
 ### [Patterns](patterns)
-### [Cipher](cipher)

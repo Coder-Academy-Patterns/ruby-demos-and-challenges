@@ -13,12 +13,13 @@
 
 ### Demo
 
-1. Define Account class
-2. Define an ATM class
-3. Create an ATM instance
-4. Create an Account instance
-5. Withdraw from an account using ATM
-6. Print new balance for account
+1. Read width and height of window
+2. Create Pattern class
+3. Add method for making an individual tile
+4. Add method to expand tile to the window size
+5. Add Pattern subclass with custom tile
+6. Create instance of Pattern subclass
+7. Display tiled pattern
 
 ### Challenge
 1. Create your own patterns
