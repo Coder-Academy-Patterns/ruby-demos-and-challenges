@@ -6,7 +6,7 @@
 - Arrays: `[]`, `<<`
 - String interpolation: `"- #{ item }"`
 - Looping through a collection: `.each`
-- Diplaying to user: `puts`
+- Displaying to user: `puts`
 
 ### Demo
 
@@ -19,19 +19,18 @@
 7. Display each item
 
 ### Challenges
-1. Create an options menu
-    * Print items option
-    * Add items option
-    * Remove items option
-    * Update items option
-    * Quit program option
-2. Add quantity to each item
-4. Print feedback for each action
-5. Ability to cancel actions
-7. Prioritise items
+1. Add quantity to each item
+2. Add prices to items
+3. Create an options menu with:
+    * Display items
+    * Add item
+    * Remove item
+    * Update item
+    * Quit
+4. Display feedback after each action, and ability to cancel actions
+5. Prioritise items
     * Raise priority
     * Lower priority
-8. Add prices to items
-9. Print price total
-10. Have multiple shopping lists (bonus)
-11. Save shopping lists (bonus)
+6. Display total price
+7. Have multiple shopping lists
+8. Save shopping lists to files
