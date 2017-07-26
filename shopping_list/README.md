@@ -1,5 +1,7 @@
 ## Shopping List
 
+- Video of challenge: https://youtu.be/PWpyur0GJzA
+
 ### Skills
 
 - User input: `gets`
