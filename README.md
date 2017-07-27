@@ -18,3 +18,12 @@ Give the challenge briefs to the students.
 ### [ATM](atm)
 ### [Student Factory](student_factory)
 ### [Patterns](patterns)
+
+### Matt's Additions
+
+### [Phone] (Phone)
+### [Enemies]
+### [Allergies]
+### [Golf]
+### [Palindrome]
+### [Granny]
