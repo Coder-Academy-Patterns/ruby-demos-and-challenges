@@ -27,16 +27,15 @@
 
 ### Challenge
 
-1. Add an options menu
-    1. Add item
-    2. Remove item
-    3. Order items
-    4. Print items
-    5. Ask for bill
-2. Add feature to handle an empty order
-3. Choose from entree, main & desert
-4. View item description
-5. Order with food options (e.g. no mushrooms please)
-7. Queue seperate orders
-8. Add cooking times to each order
-6. Display waiting time for a single order
+Using the exist demo, add:
+
+1. A main menu with:
+    1. Show food menu
+    2. Order items
+    4. Ask for bill
+2. Choose from entree, main & desert submenus
+3. Add descriptions to items
+4. Order with food options (e.g. no mushrooms please)
+5. Allow payment of bill, either by cash or credit card
+    - Credit cards incur a surcharge of 1.5%. Display this as a line item on the bill, and include it in the total
+
