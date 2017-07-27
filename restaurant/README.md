@@ -29,13 +29,15 @@
 
 Using the exist demo, add:
 
-1. A main menu with:
+1. Separate the functionality into a main menu with:
     1. Show food menu
     2. Order items
-    4. Ask for bill
-2. Choose from entree, main & desert submenus
-3. Add descriptions to items
-4. Order with food options (e.g. no mushrooms please)
-5. Allow payment of bill, either by cash or credit card
+    3. Ask for bill
+2. When an item is ordered, repeat its name back to the user like a waiter would.
+3. Choose from entree, main & desert submenus.
+4. Add descriptions to items.
+5. Add a drinks menu (with beers, wine, and cocktails). Research six cocktails to include.
+6. Order with food options (e.g. no mushrooms please).
+7. Allow payment of bill, either by cash or credit card.
     - Credit cards incur a surcharge of 1.5%. Display this as a line item on the bill, and include it in the total
 
