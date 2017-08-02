@@ -5,6 +5,7 @@ def ask_item_info
   # Stop looping if user pressed just enter
   return nil if name == ""
 
+  # Ask for quantity
   quantity = 0
   loop do
     puts 'How many?'
@@ -13,6 +14,7 @@ def ask_item_info
     puts "Invalid number, please try again"
   end
 
+  # Ask for price
   price = nil
   loop do
     puts 'Expected per item price?'
