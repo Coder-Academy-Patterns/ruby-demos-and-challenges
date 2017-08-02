@@ -11,8 +11,9 @@ As many challenge solutions are present, don’t share this repo with students.
 Give the challenge briefs to the students.
 
 
-### [Shopping List](shopping_list)
+### [Animals](animals)
 ### [Temperature](temperature)
+### [Shopping List](shopping_list)
 ### [Cipher](cipher)
 ### [Restaurant](restaurant)
 ### [ATM](atm)
