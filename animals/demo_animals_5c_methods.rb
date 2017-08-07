@@ -3,6 +3,8 @@ class Symbol
     case self
       when :wolf
         '🐺'
+      when :gorilla
+        '🦍'
       else
         '😕'
     end
@@ -10,4 +12,6 @@ class Symbol
 end
 
 puts :wolf.emoji
+puts :gorilla.emoji
+puts :owl.emoji
 puts :notsure.emoji

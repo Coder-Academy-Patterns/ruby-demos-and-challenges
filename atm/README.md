@@ -23,6 +23,11 @@
 
 ### Challenge
 1. User interaction with ATM
+    1. "Hi, Welcome to Coder Bank"
+    2. "Would like to check your balance, withdraw, or deposit?"
+    3. Handle the above command
+2. Add Transaction for every deposit/withdrawal
+3. Add multiple account types
 2. ATM option menu
     * View account balance
     * Withdraw from account (with account limits)

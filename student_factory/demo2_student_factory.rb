@@ -2,61 +2,84 @@ require 'date'
 require 'terminal-table'
 require 'colorize'
 
-class Student
+class Student # class: template
   # Has...
-  def initialize(name, country_of_birth, birthday)
-    @name = name
+  # New instances of that class
+  # Objects
+  def initialize(first_name, last_name, country_of_birth, birthday)
+    @first_name = first_name
+    @last_name = last_name
     @country_of_birth = country_of_birth
     @birthday = birthday
   end
 
-  # Can do...
-  def name
-    @name
+  attr_accessor :country_of_birth, :birthday
+
+  # Reader first_name (getter)
+  def first_name
+    @first_name
+  end
+  # Writer first_name (setter)
+  def first_name=(new_first_name)
+    @first_name = new_first_name
   end
 
-  def country_of_birth
-    @country_of_birth
+  # Reader last_name
+  def last_name
+    @last_name
+  end
+  # Writer last_name
+  def last_name=(new_last_name)
+    @last_name = new_last_name
   end
 
-  def birthday
-    @birthday
-  end
-end
-
-def display_students(students)
-  # Display students in a table
-  table = Terminal::Table.new headers: ['Name', 'Country of Birth', 'Birthday'] do |t|
-    students.each do |student|
-      t << [
-        student.name.colorize(:green),
-        student.country_of_birth.colorize(:yellow),
-        student.birthday.to_s.colorize(:yellow)
-      ]
-    end
+  def full_name
+    "#{first_name} #{last_name}"
   end
 
-  puts table
+  def full_name=(new_full_name)
+    name_pieces = new_full_name.split(' ')
+    @first_name = name_pieces.first #...
+    @last_name = name_pieces.last #...
+  end
 end
 
 students = []
 # Add new student
-students << Student.new('Mary', 'Australia', Date.new(2000, 5, 1))
-students << Student.new('Pablo', 'Mexico', Date.new(1960, 11, 4))
-students << Student.new('Sarah', 'New Zealand', Date.new(1982, 3, 27))
+mary = Student.new('Mary', 'Poppins', 'Australia', Date.new(2000, 5, 1))
+puts "Mary’s name:"
+puts mary.full_name
+puts "Mary’s surname:"
+puts mary.last_name
+puts "Mary’s country:"
+puts mary.country_of_birth
 
-display_students(students)
+mary.full_name = 'Jane Frances Fonda'
+puts "Mary’s new name:"
+puts mary.full_name
 
-puts 'Enter student details:'
-print 'Name: '
-name = gets.chomp
-print 'Country of Birth: '
-country_of_birth = gets.chomp
-print 'Birthday (YYYY-MM-DD): '
-year, month, day = gets.chomp.split('-')
-birthday = Date.new(year.to_i, month.to_i, day.to_i)
+# mary.first_name = 'Susan'
+# mary.country_of_birth = 'New Zealand'
+# mary.birthday = Date.new(1880, 5, 1)
 
-new_student = Student.new(name, country_of_birth, birthday)
-students << new_student
+sleep 1
 
-display_students(students)
+mary.full_name
+
+
+# students << mary
+# students << Student.new('Pablo', 'Mexico', Date.new(1960, 11, 4))
+# students << Student.new('Sarah', 'New Zealand', Date.new(1982, 3, 27))
+
+# # Display students in a table
+# table = Terminal::Table.new headers: ['Name', 'Country of Birth', 'Birthday'] do |t|
+#   students.each do |student|
+#     t << [
+#       student.name.colorize(:green),
+#       student.country_of_birth.colorize(:yellow),
+#       student.birthday.to_s.colorize(:yellow)
+#     ]
+#   end
+# end
+
+# puts table

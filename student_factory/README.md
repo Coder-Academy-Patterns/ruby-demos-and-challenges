@@ -17,3 +17,7 @@
 5. Displays the table
 
 ### Challenge
+
+1. Add your own classes to the Student / Course example. e.g. Teacher, Hobby, Contact, Subject
+2. Allow students to enrol in multiple courses by changing `course` of student to a `courses` array instead
+3. Add a `students` attribute to `Course`, and automatically connect the two when a student has its `courses` changed
