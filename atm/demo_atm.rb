@@ -24,7 +24,7 @@ class ATM
     @cash = cash
   end
 
-  def withdraw(account, amount)
+  def dispense(account, amount)
     account.withdraw(amount)
   end
 end
@@ -34,6 +34,6 @@ atm_brisbane = ATM.new('Brisbane', 20000)
 jane = Account.new('Jane', 100)
 
 puts "Jane is withdrawing $20"
-atm_brisbane.withdraw(jane, 20)
+atm_brisbane.dispense(jane, 20)
 
 puts "Jane now has $#{jane.balance} in her account"
