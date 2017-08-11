@@ -21,7 +21,6 @@ def main_menu(service)
     when '2'
       account = sign_into_account(service)
       puts "Welcome #{account.email}"
-      profile = choose_profile(account)
       sleep 5
     when 'x'
       break # Stop the loop for this menu
@@ -87,26 +86,5 @@ def sign_into_account(service)
 end # def sign_into_account
 
 def choose_profile(account)
-  # Challenge: implement this method
-  # 1. Display list of profiles
-  # 2. Allow user to enter the profile they want
-  # 3. Return the profile from choose_profile method
-end
 
-def make_new_profile_for_account(account)
-  # Challenge: implement this method
-  # 1. Ask for profile details
-  # 2. Create new profile object
-  # 3. Add it to the `account` object
-  # 4. Edit the `sign_up_account` method to use this new `make_new_profile_for_account` method
-end
-
-# Advanced challenge: implement this method
-# 1. Save the `accounts` above to a file — research techniques for saving 
-# 2. Load the accounts from the file when starting the app
-
-def save_accounts(accounts)
-end
-
-def load_accounts(accounts)
 end
